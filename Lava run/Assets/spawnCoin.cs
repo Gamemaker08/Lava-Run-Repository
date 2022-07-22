@@ -17,7 +17,7 @@ public class spawnCoin : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-        if (timer > 0.01f)
+        if (timer > 100f)
         {
             timer = 0;
             GameObject newCoins = Instantiate(coinPrefab);
